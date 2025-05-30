@@ -1,0 +1,82 @@
+*{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(#FFFFFF,#EBDCFF);
+}
+
+.banner{
+    width: 87.5%;
+    
+    margin: 100px auto 120px auto;
+    border: 2px solid #872BFF10;
+    border-radius: 40px;
+    padding:30px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-image: url('../images/hero-bg.png');
+}
+
+.banner-content {
+    width: 50%;
+     
+}
+.banner-content *{
+      
+     margin-bottom: 36px;
+}
+.banner-content h1{
+    font-weight: bold;
+    font-size: 70px;
+}
+.banner-content p{
+    color:#A8A8A8;
+    font-size: 18px;
+    font-weight: medium;
+   
+}
+
+.banner-content span{
+    color:#F411CF;
+}
+.banner-image{
+    width: 600px;
+}
+.btn{
+    background-color: #872BFF;
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+
+}
+.btn-white{
+    
+    border-radius: 30px;
+    padding: 16px 32px;
+    color: white;
+    margin-right: 20px;
+    cursor: pointer;
+    color: black;
+
+}
+.second-box{
+    width:600px;
+    height:600px
+
+}
+
+.btn-color{
+    background-color: #872BFF;
+    padding: 32px 16px;
+    width: 145px;
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-weight: bold;
+}
