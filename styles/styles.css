@@ -119,8 +119,6 @@
 
 }
 /* Explore section */
-
-
 .explore-content{
     display: flex;
     justify-content: space-between;
@@ -156,4 +154,45 @@
   background-color: white;
   padding:40px;
   border-radius:16px;
+}
+
+/* Reviews Section */
+.reviews-container{
+  background-color: white;
+  padding:20px;
+  color:#0E0E0E;
+  margin-bottom: 40px;
+  text-align:center;
+
+}
+
+.reviewed-person{
+  margin-top: 20px;
+  display:flex;
+  justify-content: center;
+  gap:100px;
+}
+
+/* Footer */
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #F3F3F3;
+  padding:17px 123px;
+
+  
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.checked {
+  color: orange;
 }
