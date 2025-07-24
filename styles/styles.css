@@ -42,13 +42,7 @@
         color:#A8A8A8;
       }
 
-      .btn{
-        background-color: #872BFF;
-        padding:16px 32px;
-        border-radius: 30px;
-        color: white;
-        margin-right:10px;
-      }
+      
 
       .btn-white{
        
@@ -63,24 +57,38 @@
         width:600px;
       }
 
-/* service section */
-.service-container{
+/* commmon code */
+.container{
     width: 1260px;
-    margin: auto;
+    margin: 120px auto;
 }
-.service-container h4 {
-  text-align: center;
-  font-weight: bold;
-  font-size: 24px;
-  color: #F411CF;
 
-}
-.service-container h1 {
+.title{
   text-align: center;
-  font-weight: bold;
-  font-size: 44px;
-
+  margin-bottom: 60px;
 }
+.title h4{
+  font-size:24px ;
+  font-weight:bold ;
+  color:#F411CF
+}
+.title h2{
+  font-size:44px;
+  font-weight:bold;
+}
+
+.btn{
+        background-color: #872BFF;
+        padding:16px 32px;
+        border-radius: 30px;
+        color: white;
+        margin-right:10px;
+        margin-top: 20px;
+        border:none;
+      }
+
+/* service section */
+
 .service-content{
     display: flex;
     justify-content: space-between;
@@ -111,26 +119,8 @@
 
 }
 /* Explore section */
-.explore-container{
-    width: 1260px;
-    margin: 120px auto;
-}
-.explore-title {
-    font-weight: bold;
-    font-size: 44px;
-    text-align: center;
-    margin-bottom: 60px;
-    
 
-}
-.explore-subtitle {
-    font-weight: bold;
-    font-size: 24px;
-    text-align: center;
-    color: #F411CF;
-    
 
-}
 .explore-content{
     display: flex;
     justify-content: space-between;
@@ -142,4 +132,28 @@
     font-size: 16px;
     color: #0E0E0E;
     margin-bottom: 32px;
+}
+
+/* Countries content */
+.countries-content{
+  text-align:center;
+
+}
+
+.first-countries{
+  display:flex;
+  gap:20px;
+  justify-content: space-between;
+}
+.second-countries{
+  display:flex;
+  gap:20px;
+  justify-content:center;
+  margin-top: 20px;
+}
+
+.country-box{
+  background-color: white;
+  padding:40px;
+  border-radius:16px;
 }
